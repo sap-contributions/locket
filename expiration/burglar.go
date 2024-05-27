@@ -8,8 +8,8 @@ import (
 	"code.cloudfoundry.org/clock"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket"
-	"code.cloudfoundry.org/locket/db"
+	"github.com/sap-contributions/locket"
+	"github.com/sap-contributions/locket/db"
 )
 
 const (

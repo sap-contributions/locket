@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/locket/jointlock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket/jointlock"
 	"github.com/tedsuo/ifrit"
 	fake_runner "github.com/tedsuo/ifrit/fake_runner_v2"
 	ginkgomon "github.com/tedsuo/ifrit/ginkgomon_v2"

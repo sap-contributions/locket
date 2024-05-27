@@ -1,1 +1,1 @@
-package expirationfakes // import "code.cloudfoundry.org/locket/expiration/expirationfakes"
+package expirationfakes // import "github.com/sap-contributions/locket/expiration/expirationfakes"

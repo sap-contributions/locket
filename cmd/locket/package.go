@@ -1,1 +1,1 @@
-package main // import "code.cloudfoundry.org/locket/cmd/locket"
+package main // import "github.com/sap-contributions/locket/cmd/locket"

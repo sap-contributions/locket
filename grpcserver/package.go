@@ -1,1 +1,1 @@
-package grpcserver // import "code.cloudfoundry.org/locket/grpcserver"
+package grpcserver // import "github.com/sap-contributions/locket/grpcserver"

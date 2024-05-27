@@ -1,1 +1,1 @@
-package locket // import "code.cloudfoundry.org/locket"
+package locket // import "github.com/sap-contributions/locket"

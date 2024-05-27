@@ -9,9 +9,9 @@ import (
 	mfakes "code.cloudfoundry.org/diego-logging-client/testhelpers"
 	loggregator "code.cloudfoundry.org/go-loggregator/v9"
 	"code.cloudfoundry.org/lager/v3/lagertest"
-	"code.cloudfoundry.org/locket/metrics"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket/metrics"
 	"github.com/tedsuo/ifrit"
 	ginkgomon "github.com/tedsuo/ifrit/ginkgomon_v2"
 )

@@ -1,1 +1,1 @@
-package expiration // import "code.cloudfoundry.org/locket/expiration"
+package expiration // import "github.com/sap-contributions/locket/expiration"

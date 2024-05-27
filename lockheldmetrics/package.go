@@ -1,1 +1,1 @@
-package lockheldmetrics // import "code.cloudfoundry.org/locket/lockheldmetrics"
+package lockheldmetrics // import "github.com/sap-contributions/locket/lockheldmetrics"

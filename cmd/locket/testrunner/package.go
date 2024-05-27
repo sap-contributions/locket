@@ -1,1 +1,1 @@
-package testrunner // import "code.cloudfoundry.org/locket/cmd/locket/testrunner"
+package testrunner // import "github.com/sap-contributions/locket/cmd/locket/testrunner"

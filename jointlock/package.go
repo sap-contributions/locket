@@ -1,1 +1,1 @@
-package jointlock // import "code.cloudfoundry.org/locket/jointlock"
+package jointlock // import "github.com/sap-contributions/locket/jointlock"

@@ -1,1 +1,1 @@
-package dbfakes // import "code.cloudfoundry.org/locket/db/dbfakes"
+package dbfakes // import "github.com/sap-contributions/locket/db/dbfakes"

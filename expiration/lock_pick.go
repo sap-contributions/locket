@@ -9,8 +9,8 @@ import (
 	"code.cloudfoundry.org/clock"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket/db"
-	"code.cloudfoundry.org/locket/models"
+	"github.com/sap-contributions/locket/db"
+	"github.com/sap-contributions/locket/models"
 )
 
 //go:generate counterfeiter . LockPick

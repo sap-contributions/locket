@@ -1,1 +1,1 @@
-package models // import "code.cloudfoundry.org/locket/models"
+package models // import "github.com/sap-contributions/locket/models"

@@ -1,9 +1,9 @@
 package models_test
 
 import (
-	"code.cloudfoundry.org/locket/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket/models"
 )
 
 var _ = Describe("helpers", func() {

@@ -8,11 +8,11 @@ import (
 	"google.golang.org/grpc/credentials"
 
 	"code.cloudfoundry.org/lager/v3/lagertest"
-	"code.cloudfoundry.org/locket/grpcserver"
-	"code.cloudfoundry.org/locket/models"
 	"code.cloudfoundry.org/tlsconfig"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket/grpcserver"
+	"github.com/sap-contributions/locket/models"
 	"github.com/tedsuo/ifrit"
 	ginkgomon "github.com/tedsuo/ifrit/ginkgomon_v2"
 	"golang.org/x/net/context"

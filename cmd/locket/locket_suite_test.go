@@ -37,7 +37,7 @@ func TestLocket(t *testing.T) {
 
 var _ = SynchronizedBeforeSuite(
 	func() []byte {
-		locketBinPathData, err := gexec.Build("code.cloudfoundry.org/locket/cmd/locket", "-race")
+		locketBinPathData, err := gexec.Build("github.com/sap-contributions/locket/cmd/locket", "-race")
 		Expect(err).NotTo(HaveOccurred())
 		return []byte(locketBinPathData)
 	},

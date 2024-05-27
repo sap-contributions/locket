@@ -1,1 +1,1 @@
-package config // import "code.cloudfoundry.org/locket/cmd/locket/config"
+package config // import "github.com/sap-contributions/locket/cmd/locket/config"

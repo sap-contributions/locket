@@ -11,7 +11,6 @@ require (
 	code.cloudfoundry.org/go-loggregator/v9 v9.2.1
 	code.cloudfoundry.org/inigo v0.0.0-20240521130010-563aea6c3e0c
 	code.cloudfoundry.org/lager/v3 v3.0.3
-	code.cloudfoundry.org/locket v0.0.0-20240521151413-b344fdd15d03
 	code.cloudfoundry.org/tlsconfig v0.0.0-20240522170710-79df114af82a
 	github.com/gogo/protobuf v1.3.2
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
@@ -26,6 +25,7 @@ require (
 
 require (
 	code.cloudfoundry.org/go-diodes v0.0.0-20240515174142-71582f284718 // indirect
+	code.cloudfoundry.org/locket v0.0.0-20240521151413-b344fdd15d03 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect

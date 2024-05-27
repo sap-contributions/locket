@@ -1,1 +1,1 @@
-package handlers // import "code.cloudfoundry.org/locket/handlers"
+package handlers // import "github.com/sap-contributions/locket/handlers"

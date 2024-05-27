@@ -6,7 +6,7 @@ import (
 	"code.cloudfoundry.org/bbs/db/sqldb/helpers"
 	"code.cloudfoundry.org/bbs/guidprovider"
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket/models"
+	"github.com/sap-contributions/locket/models"
 )
 
 //go:generate counterfeiter . LockDB

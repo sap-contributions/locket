@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket/db"
-	"code.cloudfoundry.org/locket/expiration"
+	"github.com/sap-contributions/locket/db"
+	"github.com/sap-contributions/locket/expiration"
 )
 
 type FakeLockPick struct {

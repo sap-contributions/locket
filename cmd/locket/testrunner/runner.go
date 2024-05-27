@@ -9,11 +9,11 @@ import (
 
 	"code.cloudfoundry.org/durationjson"
 	"code.cloudfoundry.org/lager/v3/lagerflags"
-	"code.cloudfoundry.org/locket"
-	"code.cloudfoundry.org/locket/cmd/locket/certauthority"
-	"code.cloudfoundry.org/locket/cmd/locket/config"
 	"code.cloudfoundry.org/tlsconfig"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket"
+	"github.com/sap-contributions/locket/cmd/locket/certauthority"
+	"github.com/sap-contributions/locket/cmd/locket/config"
 	ginkgomon "github.com/tedsuo/ifrit/ginkgomon_v2"
 )
 

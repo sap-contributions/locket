@@ -5,9 +5,9 @@ import (
 	"encoding/pem"
 	"os"
 
-	"code.cloudfoundry.org/locket/cmd/locket/certauthority"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket/cmd/locket/certauthority"
 )
 
 var _ = Describe("Cert Allocator", func() {

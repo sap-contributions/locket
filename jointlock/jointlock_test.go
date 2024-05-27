@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/locket/jointlock"
+	"github.com/sap-contributions/locket/jointlock"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -5,10 +5,10 @@ import (
 
 	"code.cloudfoundry.org/bbs/db/sqldb/helpers"
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket/db"
-	"code.cloudfoundry.org/locket/expiration"
-	metrics_helpers "code.cloudfoundry.org/locket/metrics/helpers"
-	"code.cloudfoundry.org/locket/models"
+	"github.com/sap-contributions/locket/db"
+	"github.com/sap-contributions/locket/expiration"
+	metrics_helpers "github.com/sap-contributions/locket/metrics/helpers"
+	"github.com/sap-contributions/locket/models"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/metadata"
 )

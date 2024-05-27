@@ -1,1 +1,1 @@
-package db // import "code.cloudfoundry.org/locket/db"
+package db // import "github.com/sap-contributions/locket/db"

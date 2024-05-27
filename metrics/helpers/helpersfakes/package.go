@@ -1,1 +1,1 @@
-package helpersfakes // import "code.cloudfoundry.org/locket/metrics/helpers/helpersfakes"
+package helpersfakes // import "github.com/sap-contributions/locket/metrics/helpers/helpersfakes"

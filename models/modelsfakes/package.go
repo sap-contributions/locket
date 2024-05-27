@@ -1,1 +1,1 @@
-package modelsfakes // import "code.cloudfoundry.org/locket/models/modelsfakes"
+package modelsfakes // import "github.com/sap-contributions/locket/models/modelsfakes"

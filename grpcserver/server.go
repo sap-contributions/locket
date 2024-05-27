@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket/models"
+	"github.com/sap-contributions/locket/models"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

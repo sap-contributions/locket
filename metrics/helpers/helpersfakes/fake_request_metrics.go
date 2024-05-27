@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/locket/metrics/helpers"
+	"github.com/sap-contributions/locket/metrics/helpers"
 )
 
 type FakeRequestMetrics struct {

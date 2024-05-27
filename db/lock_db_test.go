@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	"code.cloudfoundry.org/bbs/db/sqldb/helpers"
-	"code.cloudfoundry.org/locket/db"
-	"code.cloudfoundry.org/locket/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/sap-contributions/locket/db"
+	"github.com/sap-contributions/locket/models"
 )
 
 func validateLockInDB(rawDB *sql.DB, res *models.Resource, expectedIndex, expectedTTL int64, expectedModifiedId string) error {

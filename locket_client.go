@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager/v3"
-	"code.cloudfoundry.org/locket/models"
 	"code.cloudfoundry.org/tlsconfig"
+	"github.com/sap-contributions/locket/models"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/connectivity"
 	"google.golang.org/grpc/credentials"
